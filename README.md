@@ -124,7 +124,7 @@ The order of precedence for token loading is flag, environment variable, active 
 On any machine with the Firebase CLI, running `firebase logout --token <token>`
 will immediately revoke access for the specified token.
 
-## Using as a Module
+## Using as a Module for fun
 
 The Firebase CLI can also be used programmatically as a standard Node module. This can only be done on your machine, and cannot be done within Cloud Functions. Each command is exposed as a function that takes an options object and returns a Promise. For example:
 
